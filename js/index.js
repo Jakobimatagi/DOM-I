@@ -43,11 +43,11 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 // nav
 const navTab1 = document.querySelector('nav a');
-const navTab2 = navTab1.nextSibling;
-const navTab3 = navTab2.nextSibling;
-const navTab4 = navTab3.nextSibling;
-const navTab5 = navTab4.nextSibling;
-const navTab6 = navTab5.nextSibling;
+const navTab2 = navTab1.nextElementSibling;
+const navTab3 = navTab2.nextElementSibling;
+const navTab4 = navTab3.nextElementSibling;
+const navTab5 = navTab4.nextElementSibling;
+const navTab6 = navTab5.nextElementSibling;
 
 navTab1.textContent = "Servivces";
 navTab2.textContent = "Product";
@@ -150,9 +150,14 @@ footer.textContent = "Copyright Great Idea! 2018"
 
 
 // styling
-const nav = document.querySelector('nav');
-
-nav.style.color = "green";
+navTab1.style.color = "green";
+navTab2.style.color = "green";
+navTab3.style.color = "green";
+navTab4.style.color = "green";
+navTab5.style.color = "green";
+navTab6.style.color = "green";
+newTagtwo.style.color = "green";
+newTag.style.color = "green";
 
 // added tags to nav
 
